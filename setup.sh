@@ -10,11 +10,11 @@ echo "alias sowhat='docker logs -n100 (docker ps -aq)'" >> ~/.bashrc
 echo "alias isrunning='docker ps -aq'" >> ~/.bashrc
 echo "alias rotate='pardon; fuckthem; sowhat;'" >> ~/.bashrc
 
-echo "Щоб атакувати русню: fuckthem"
-echo "Щоб припинити: pardon"
-echo "Перезагрузити бійця: rotate"
-echo "Дивитися логи у реалтаймі: logs"
-echo "Дивитися останні 100 рядків логу: sowhat"
-echo "Роби ротацію бійця хочаб раз на 2 дні. Можуть бути корисні покращення. Успіхів!"
+echo Щоб атакувати русню fuckthem
+echo Щоб припинити pardon
+echo Перезавантажити бійця rotate
+echo Дивитися логи у реалтаймі logs
+echo Дивитися останні 100 рядків логу sowhat
+echo Роби ротацію бійця хочаб раз на 2 дні. Можуть бути корисні покращення. Успіхів!
 
 exec bash
